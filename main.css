@@ -1,0 +1,174 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	margin: 0;
+	padding:0;
+}
+.header ul{
+	list-style-type: none;
+}
+.header ul li{
+	display: inline;
+	padding:0 20px;
+}
+.header{
+	height: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding:0 135px;
+}
+.bentrai p{
+	display: inline;
+	margin-right: 40px;
+}
+.nutmaucam{
+	border-radius: 6px;
+	padding:9px 19px;
+	border: none;
+	background-color: #FE5000;
+	color:white;
+	
+}
+
+.banner{
+	height: 530px;
+	background-color: #1F0A00;
+	padding:85px 135px;
+	color:white;
+	display: flex;
+	align-items: center;
+}
+.banner img{
+	height: 100%;
+}
+.bannertrai h1{
+	
+	font-size: 70px;
+}
+.bannertrai p{
+	width:70%;
+	padding:10px 0;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.sec2{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 150px;
+	text-align: center;
+	
+}
+.sec3{
+	text-align: center;
+}
+.motdong{
+	display: flex;
+	justify-content: space-around;
+	
+}
+.sec3 p{
+	padding:30px;
+}
+.card{
+	background-color: #F6F6F6;
+	width:20%;
+	padding:50px;
+}
+.card:hover{
+	background-color: #FE5000;
+	color:white;
+}
+.sec4{
+	background-color: #FFFAF8;
+	height: 1430px;
+	text-align: center;
+	padding:100px 135px;
+}
+.dong{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	margin-bottom: 10px;
+}
+.cardlon{
+	background-color: white;
+	border-radius: 14px;
+	text-align: left;
+	padding:22px;
+	width: 25%;
+}
+.cardlon img{
+	width: 100%;
+}
+.dongcta{
+	display: flex;
+	justify-content: space-between;
+}
+.dongcta input{
+	border-radius: 4px;
+	background-color: transparent;
+	padding:5px 14px;
+	border: 1px solid #D6CBC6;
+
+	
+}
+.nuthover:hover  .cardlon	{
+	box-shadow: 5px 5px 5px 5px red;
+}
+.cardlon{
+	position: relative;
+}
+.nuthover{
+	position: absolute;
+	bottom: 0;
+	height: 100px;
+	width:100%;
+	background-color: antiquewhite;
+}
+.footer{
+	background-color: #1F0A00;
+	color:white;
+	height: 249px;
+padding:100px 135px;
+}
+.duongvien{
+	background-color: transparent;
+	border:1px solid white;
+}
+.dongmot{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.ctabtn{
+	padding-right: 50px;
+}
+.donghaiphai{
+	display: flex;
+	justify-content: space-between;
+}
+.donghaiphai ul{
+	list-style-type: none;
+}
+.donghaiphai li{
+	padding:5px 0;
+}
+.donghaiphai ul li i{
+	color:orange;
+	padding-right: 15px;
+	
+}
+.donghaitrai{
+	width: 30%;
+}
+.donghaiphai{
+	width: 60%;
+}
+.donghai{
+	display: flex;
+	justify-content: space-between;
+	padding-top:20px;
+}
